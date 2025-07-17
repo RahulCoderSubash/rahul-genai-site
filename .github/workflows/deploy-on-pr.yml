@@ -1,28 +1,32 @@
-name: Build & Deploy on PR Push
+name: Build & Deploy
 
 on:
   pull_request:
-    types: [opened, synchronize]
+    branches: [main]
+    types: [opened, synchronize, reopened]
+
+  push:
+    branches: [main]
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Code 🛎️
+      - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Setup Node.js 🧰
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18' # or your preferred version
+          node-version: '18'
           cache: 'npm'
 
-      - name: Install Dependencies 📦
+      - name: Install Dependencies
         run: npm install
 
-      - name: Build App 🏗️
+      - name: Build App
         run: npm run build
 
-      - name: Deploy App 🚀
+      - name: Deploy App
         run: npm run deploy
