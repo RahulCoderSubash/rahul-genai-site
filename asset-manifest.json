@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rahul-genai-site/static/css/main.38905ec8.css",
-    "main.js": "/rahul-genai-site/static/js/main.e58c4f3c.js",
+    "main.css": "/rahul-genai-site/static/css/main.e6c13ad2.css",
+    "main.js": "/rahul-genai-site/static/js/main.fd2382e3.js",
     "static/js/453.13e93b45.chunk.js": "/rahul-genai-site/static/js/453.13e93b45.chunk.js",
     "index.html": "/rahul-genai-site/index.html",
-    "main.38905ec8.css.map": "/rahul-genai-site/static/css/main.38905ec8.css.map",
-    "main.e58c4f3c.js.map": "/rahul-genai-site/static/js/main.e58c4f3c.js.map",
+    "main.e6c13ad2.css.map": "/rahul-genai-site/static/css/main.e6c13ad2.css.map",
+    "main.fd2382e3.js.map": "/rahul-genai-site/static/js/main.fd2382e3.js.map",
     "453.13e93b45.chunk.js.map": "/rahul-genai-site/static/js/453.13e93b45.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.38905ec8.css",
-    "static/js/main.e58c4f3c.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.fd2382e3.js"
   ]
 }
