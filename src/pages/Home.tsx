@@ -34,10 +34,10 @@ const Home = () => {
           lineHeight: '1.8',
           color: '#444',
           textAlign: 'justify',
+          marginBottom: '2rem',
         }}
       >
-        I’m a Developer II at <strong>Kyndryl India Pvt Ltd</strong> with over <strong>6 years of experience</strong> building scalable AI-driven applications, enterprise-grade APIs, and cloud-native platforms.
-        My expertise spans <strong>Generative AI</strong>, <strong>LLMs</strong>, <strong>semantic search</strong>, and <strong>vector-based retrieval</strong> using tools like <strong>LangChain</strong>, <strong>ChromaDB</strong>, and <strong>Azure AI Search</strong>.
+        I’m a Developer II at <strong>Kyndryl India Pvt Ltd</strong> with over <strong>6 years of experience</strong> building scalable AI-driven applications, enterprise-grade APIs, and cloud-native platforms. My expertise spans <strong>Generative AI</strong>, <strong>LLMs</strong>, <strong>semantic search</strong>, and <strong>vector-based retrieval</strong> using tools like <strong>LangChain</strong>, <strong>ChromaDB</strong>, and <strong>Azure AI Search</strong>.
       </motion.p>
 
       <motion.div
@@ -66,6 +66,7 @@ const Home = () => {
             fontSize: 'clamp(1rem, 2.5vw, 1.1rem)',
             paddingLeft: '1.2rem',
             lineHeight: '1.7',
+            margin: 0,
           }}
         >
           <li>🔍 Build GenAI-powered chatbots with advanced semantic search</li>
@@ -82,15 +83,15 @@ const Home = () => {
         transition={{ delay: 1.2, duration: 0.8 }}
         style={{
           marginTop: '3rem',
+          padding: '1rem 0',
           fontSize: 'clamp(1rem, 2.5vw, 1.1rem)',
           color: '#555',
           textAlign: 'justify',
         }}
       >
-        <p>
-          My work is focused on solving real-world business problems using AI, optimizing infrastructure, and driving automation across data-rich
-          ecosystems. I’m deeply passionate about building <strong>impactful, secure, and scalable solutions</strong> that blend innovation with performance.
-        </p>
+        <span style={{ margin: 0 }}>
+          My work is focused on solving real-world business problems using AI, optimizing infrastructure, and driving automation across data-rich ecosystems. I’m deeply passionate about building <strong>impactful, secure, and scalable solutions</strong> that blend innovation with performance.
+        </span>
       </motion.div>
     </div>
   );
